@@ -11,7 +11,8 @@ import SwiftUI
 struct gastrackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            HomeView()
         }
     }
 }

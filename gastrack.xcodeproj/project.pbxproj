@@ -11,6 +11,9 @@
 		5746539B28583F9600404D88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746539A28583F9600404D88 /* ContentView.swift */; };
 		5746539D28583F9700404D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5746539C28583F9700404D88 /* Assets.xcassets */; };
 		574653A028583F9700404D88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5746539F28583F9700404D88 /* Preview Assets.xcassets */; };
+		574653A72858403300404D88 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574653A62858403300404D88 /* HomeView.swift */; };
+		574653A92858455800404D88 /* fuelLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574653A82858455800404D88 /* fuelLogItem.swift */; };
+		574653AB285852ED00404D88 /* fuelLogItemEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574653AA285852ED00404D88 /* fuelLogItemEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		5746539A28583F9600404D88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5746539C28583F9700404D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5746539F28583F9700404D88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		574653A62858403300404D88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		574653A82858455800404D88 /* fuelLogItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuelLogItem.swift; sourceTree = "<group>"; };
+		574653AA285852ED00404D88 /* fuelLogItemEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuelLogItemEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				5746539828583F9600404D88 /* gastrackApp.swift */,
+				574653A62858403300404D88 /* HomeView.swift */,
+				574653A82858455800404D88 /* fuelLogItem.swift */,
+				574653AA285852ED00404D88 /* fuelLogItemEntry.swift */,
 				5746539A28583F9600404D88 /* ContentView.swift */,
 				5746539C28583F9700404D88 /* Assets.xcassets */,
 				5746539E28583F9700404D88 /* Preview Content */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574653A72858403300404D88 /* HomeView.swift in Sources */,
+				574653A92858455800404D88 /* fuelLogItem.swift in Sources */,
 				5746539B28583F9600404D88 /* ContentView.swift in Sources */,
+				574653AB285852ED00404D88 /* fuelLogItemEntry.swift in Sources */,
 				5746539928583F9600404D88 /* gastrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
